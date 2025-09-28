@@ -34,7 +34,6 @@ public class MergeSort {
     }
 
     private static void merge(int[] array, int[] buffer, int left, int mid, int right) {
-        // Копируем левую и правую части в буфер
         System.arraycopy(array, left, buffer, left, right - left + 1);
 
         int i = left;
@@ -53,10 +52,9 @@ public class MergeSort {
             array[k++] = buffer[i++];
         }
 
-        // правая часть уже на месте, не нужно копировать
+
     }
 
-    // Пример использования
     public static void main(String[] args) {
         int[] arr = { 5, 2, 9, 1, 5, 6, 7, 3, 8, 4, 10, 0, -1, 11, 13, 12 };
         sort(arr);

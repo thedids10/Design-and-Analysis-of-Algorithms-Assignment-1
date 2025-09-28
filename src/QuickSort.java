@@ -49,7 +49,7 @@ public class QuickSort {
         }
     }
 
-    // Пример использования
+
     public static void main(String[] args) {
         int[] array = {9, 3, 7, 1, 5, 4, 6, 8, 2, 0, 11, -3, 12};
         sort(array);

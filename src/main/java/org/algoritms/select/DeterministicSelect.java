@@ -7,16 +7,26 @@ public class DeterministicSelect {
 
     public int select(int[] a, int k) {
         if (a == null || k < 1 || k > a.length) throw new RuntimeException();
-        return find(a, 0, a.length - 1, k - 1);
+        return go(a, 0, a.length - 1, k - 1);
     }
 
-    private int find(int[] a, int l, int r, int k) {
-        if (l == r) return a[l];
-        int piv = pick(a, l, r);
-        int idx = split(a, l, r, piv);
-        if (k == idx) return a[k];
-        if (k < idx) return find(a, l, idx - 1, k);
-        return find(a, idx + 1, r, k);
+    private int go(int[] a, int l, int r, int k) {
+        while (true) {
+            if (l == r) return a[l];
+            int piv = pick(a, l, r);
+            int idx = split(a, l, r, piv);
+
+            if (k == idx) return a[k];
+
+            // выбираем меньшую часть для рекурсии
+            if (idx - l < r - idx) {
+                if (k < idx) return go(a, l, idx - 1, k);
+                l = idx + 1;
+            } else {
+                if (k > idx) return go(a, idx + 1, r, k);
+                r = idx - 1;
+            }
+        }
     }
 
     private int split(int[] a, int l, int r, int piv) {

@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d369c96-24bc-4cb1-847e-aaf4cad16359" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClosestPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeterministicSelect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ClosestPairTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/DeterministicSelectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/MergeSortTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/QuickSortTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design-and-Analysis-of-Algorithms-Assignment-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algoritms/select/DeterministicSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algoritms/select/DeterministicSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algoritms/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algoritms/sorting/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.ClosestPairTest.executor": "Run",
+    "JUnit.DeterministicSelectTest.executor": "Run",
     "JUnit.MergeSortTest.executor": "Run",
     "JUnit.QuickSortTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,6 +76,7 @@
       <workItem from="1759091919707" duration="29000" />
       <workItem from="1759092000961" duration="64000" />
       <workItem from="1759092086496" duration="11000" />
+      <workItem from="1759092230648" duration="40000" />
     </task>
     <servers />
   </component>

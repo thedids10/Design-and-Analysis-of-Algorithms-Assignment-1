@@ -6,7 +6,6 @@ public class MergeSort {
         int[] buffer = new int[array.length];
         mergeSort(array, buffer, 0, array.length - 1);
     }
-
     private static void mergeSort(int[] array, int[] buffer, int left, int right) {
         if (right - left + 1 <= INSERTION_SORT_THRESHOLD) {
             insertionSort(array, left, right);

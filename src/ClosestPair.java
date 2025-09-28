@@ -77,3 +77,4 @@ public class ClosestPair {
         System.out.printf("Минимальное расстояние: %.4f\n", minDist);
     }
 }
+
